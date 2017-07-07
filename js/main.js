@@ -9,4 +9,4 @@
 
 	    window.location.href= window.location.protocol + "//" + window.location.host +path+"KEYUR_PATEL_RESUME.pdf";
 	});
-});
+})(window, jQuery);
