@@ -1,16 +1,10 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+﻿
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Keyur's Portfolio</title>
 	<!--fonts-->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		
 	<!--//fonts-->
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -19,22 +13,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	
 	<!-- for-mobile-apps -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />		
 		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- //for-mobile-apps -->
+	
 	<!-- js -->
 		
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/woco.accordion.js"></script>
 		<script type="text/javascript" src="js/woco.accordion.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-		<script type="text/javascript" src="js/contact_form.js"></script>
-
-	
 		
-	<!-- js -->
+		<script type="text/javascript" src="js/contact_form.js"></script>		
+	
 	<!-- start-smooth-scrolling -->
 		<script type="text/javascript" src="js/move-top.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
@@ -48,6 +38,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</script>
 	<!-- start-smooth-scrolling -->
 
+	<!-- js -->
 </head>
 <body>
 <!-- banner -->
@@ -71,10 +62,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<ul>
 										<li><a class="scroll" href="#home"><span>home</span></a></li>
 										<li><a class="scroll" href="#about"><span>about</span></a></li>
-										<li><a class="scroll" href="#services"><span>services</span></a></li>
+										<li><a class="scroll" href="#skills"><span>resume</span></a></li>
 										<li><a class="scroll" href="#portfolio"><span>portfolio</span></a></li>
 										<li><a class="scroll" href="#testimonial"><span>Testimonial</span></a></li>
-										<li><a class="scroll" href="#blog"><span>blog</span></a></li>
+										
 										<li><a class="scroll" href="#contact"><span>Contact</span></a></li>
 										<div class="clearfix"> </div>
 									</ul>
@@ -85,8 +76,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div> 
 				</div>       	  
 			</div>
-			<!---start-click-drop-down-menu----->
-			        <!----start-dropdown--->
+			<!--start-click-drop-down-menu-->
+			        <!--start-dropdown-->
 			         <script type="text/javascript">
 						var $ = jQuery.noConflict();
 							$(function() {
@@ -108,7 +99,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												
 						});
 					</script>
-			<!---//End-click-drop-down-menu----->
+			<!---//End-click-drop-down-menu-->
 			<div class="clearfix"> </div>
 		</div>
 		<div class="banner-info">
@@ -119,13 +110,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h1>I’M KEYUR PATEL</h1>
 				<div class="border"></div>
 				<h2>UI-DEVELOPER</h2>
-				<button id="d-resume1">DOWNLOAD MY RESUME</button>
+				<a id="d-resume1" href="KEYUR_ PATEL_RESUME.pdf">DOWNLOAD MY RESUME</a>
 			</div>
 			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>
-<!--/header-banner-->
+<!--header-banner-->
 <!--about-->
 <div class="about text-center" id="about">
 	<div class="container">
@@ -146,7 +137,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--//about-->
 <!-- <div class="about-back"></div> -->
 <!--my skill-->
-<div class="my-skills text-center">
+<div class="my-skills text-center" id="skills">
 	<div class="container">
 		<h3>MY SKILLS</h3>
 		<div class="strip text-center"><img src="images/skill.png" alt=" "/></div>
@@ -181,11 +172,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								var colors = [
 										['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
 									];
-								for (var i = 1; i <= 7; i++) {
+								for (var i = 1; i < 7; i++) {
 									var child = document.getElementById('circles-' + i),
 										percentage = 30 + (i * 10);
 											
-										
+									
 									Circles.create({
 										id:         child.id,
 										percentage: percentage,
@@ -287,7 +278,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="work-info">
 			<h3>WORK EXPERIENCE</h3>
 		</div>
-		<div class="strip text-center"><img src="images/work.png" alt=" "/></div>
+		<div class="strip text-center"><img src="images/work.png" alt=""/></div>
 		<div class="work-grids">
 		<div id="main-body">
 		
@@ -450,23 +441,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="gallery-section text-center" id="portfolio">
 	<div class="container">
 		<h3>PORTFOLIO</h3>
-		<div class="strip text-center"><img src="images/port.png" alt=" "/></div>
+		<div class="strip text-center"><img src="images/port.png" alt=""/></div>
 		<div class="gallery-grids">
 			<div class="top-gallery">
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p1.jpg" class="swipebox"><img src="images/p1.jpg" class="img-responsive" alt="/">
+					<a href="images/gitport.jpeg" class="swipebox"><img src="images/gitport.jpeg" class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Github Search</h4>
 							<p>ANGULARJS</p>
-							<div class="button"><a href="images/p1.jpg" target="_blank" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://gitsearch.dev-tech.club/" target="_blank" >VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
-					<a href="images/p2.jpg" class="swipebox"><img src="images/p2.jpg" class="img-responsive" alt="/">
+					<a href="images/eventmanagement.jpeg" class="swipebox"><img src="images/eventmanagement.jpeg"x class="img-responsive" alt="/">
 						<div class="textbox">
 							<h4>Event Management</h4>
 							<p>ANGULARJS</p>
-							<div class="button"><a href="images/p2.jpg" class="swipebox">VIEW</a></div>
+							<div class="button"><a href="http://event-mgmt.dev-tech.club/" class="swipebox">VIEW</a></div>
 						</div>
 				</div></a>
 				<div class="col-md-4 gallery-grid gallery1">
@@ -609,7 +600,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </div> 
 <!--testimonials-->
 <!--clients-->
-<!-- <div class="clients text-center">
+<!--<div class="clients text-center">
 	<div class="container">
 		<h4>Clients</h4>
 		<div class="strip-line"></div>
@@ -632,11 +623,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"></div>
 		</div>
 	</div>
-</div>  -->
+</div>  
 <!--clients-->
 <!-- <div class="client-back"></div> -->
 <!--blog-->
-<!-- <div class="blog" id="blog">
+<!--<div class="blog" id="blog">
 	<div class="container">
 		<div class="blog-info text-center">
 			<h3>BLOG</h3>
@@ -772,9 +763,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"></div>
 		</div>
 	</div>
-</div> -->
+</div>
 <!--//blog-->
-<!-- <div class="contact-back"></div> -->
+<!-- <div class="contact-back"></div> --> 
 <!--contact-->
 <div class="contact" id="contact">
 	<div class="container">
@@ -792,16 +783,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<li>United States</li>
 					<li>+1 408-668-4723</li>
 					<li><a href="mailto:info@example.com">keyur1363@gmail.com</a></li>
-					<li><a href="#">www.keyur1363.com</li>
+					<li><a href="#">www.keyur1363.com</a></li>
 				</ul>
 			</div>
 			<div class="col-md-7 contact-right">
 				<h3>Drop Me A Line</h3>
 				<div class="stripb"></div>
-				<form method="post" action="#" id="form_contact">
-					<input type="text" id="name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-					<input type="text" id="email" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" required="">
-					<textarea type="text" id="message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" required="">Message</textarea>
+				<form id="send">
+					<input type="text" id="name" value="Name" required="">
+					<input type="text" id="email" value="E-mail" required="">
+					<textarea type="text" id="message"  required="">Message</textarea>
 					<input type="submit" value="SEND" id="send">
 				</form>
 			</div>
@@ -814,8 +805,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--resume-->
 <div class="resume text-center">
 	<div class="container">
-		<div class="strip text-center"><a href="#"><img src="images/down.png" alt=" "/></a></div>
-		<div class="down"><a href="#">Download My Resume</a></div>
+		<div class="strip text-center"><i href="#"><img src="images/down.png" alt=""/></i></div>
+		<div class="down"><a href="KEYUR_ PATEL_RESUME.pdf">Download My Resume</a></div>
 	</div>
 </div>
 <!--//resume-->
@@ -831,19 +822,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
+			
 				var defaults = {
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
 				easingType: 'linear' 
 				};
-			*/
+			
 								
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
 	</script>
 <!-- //here ends scrolling icon -->
+    
 </body>
 </html>

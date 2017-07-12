@@ -5,14 +5,14 @@ $(document).ready(function () {
         var name = $("#name").val();
         var email = $("#email").val();
         var message = $("#message").val();
-        
+        console.log('sending data for mail api');
         $("#returnmessage").empty(); // To empty previous error/success message.
         // Checking for blank fields.
-        if (name == '' || email == '' || subject == '') {
+        if (name == '' || email == '' ) {
             alert("Please Fill Required Fields");
         } else {
             // Returns successful data submission message when the entered information is stored in database.
-            $.post("http://mywork.devview.info/mail.php?to=keyur13111992@gmail.com", {
+            $.post("http://mywork.dev-tech.club/mail.php?to=keyur13111992@gmail.com", {
                 name: name,
                 email: email,
                 message: message
