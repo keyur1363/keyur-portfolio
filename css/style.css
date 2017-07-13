@@ -1986,7 +1986,7 @@ border:none;
 	  margin: 15px 0 0px 0;
 	}
 	.banner-info {
-	  width: 78%;
+	  width: 87%;
 	  margin: 100px auto 0 auto;
 	}
 	.banner-right h1 {
@@ -2130,7 +2130,7 @@ border:none;
 	  font-size: 16px;
 	  }
 	.gallery-section {
-	  min-height: 1068px;
+	  min-height: 754px;
 	}
 	.process h3 {
 	  font-size: 32px;
@@ -2172,6 +2172,13 @@ border:none;
 	  margin: 45px auto 0 auto;
 	  padding: 71px 45px;
 	}  
+    .test-banner img.quoa{
+        top:11%;
+    }
+     .test-banner img.quo{
+        top:87%;
+    }
+
 	.test-right {
 	  float: right;
 	  width: 54%;

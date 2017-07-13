@@ -170,6 +170,36 @@
     }
     
 }
+
+
+@media (max-width:1024px){
+    .accordion-header{
+        padding:16px;
+    }
+       
+    .accor_tittles{
+        font-size: 15px;
+    }
+    .accor_tittlec {
+        font-size: 15px;
+    }
+    
+    .accor_roleu{
+            padding: 0 230px 0px 230px;
+    font-size: 15px;
+    }
+    .accor_rolei {
+       padding: 0 254px 0px 234px;
+    font-size: 15px;
+    }
+    
+    .accor_year{
+           padding: 0 8px 0 8px;
+         font-size: 15px;
+    }
+
+    
+}
 /*accordion header*/
 
 /*accordion content*/
@@ -178,7 +208,7 @@
 
     .exp_content{
             width: 95%;
-    float: right;
+           float: right;
     }
 
     
@@ -186,6 +216,19 @@
             margin: 50px 25px 50px 0px;
     }
 }
+@media (max-width:1024px){
+
+    .exp_content{
+            width: 69%;
+           float: right;
+    }
+
+    
+    .exp_img{
+            margin: 107px 25px 50px 0px;
+    }
+}
+
 
 
 
