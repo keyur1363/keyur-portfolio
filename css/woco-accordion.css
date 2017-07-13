@@ -24,8 +24,8 @@
 	background:#52edc7;
 	padding:12px;
 	cursor:pointer;
-	border-right:5px solid #000;
-	border-left:5px solid #000;
+	border-right:5px solid #fff;
+	border-left:5px solid #fff;
 	    border-radius: 20px;
 	min-height:58px;
 	transition:.25s;
@@ -78,15 +78,15 @@
 
 .accor_roleu{
         padding: 0 327px 0px 327px;
-        font-size:14px;
+        font-size:15px;
 }
 .accor_rolei{
     padding:0 360px 0 330px;
-    font-size:14px;
+    font-size:15px;
 }
 .accor_year{
-        padding: 0 25px 0 25px;
-        font-size:14px;
+        padding: 0 8px 0 8px;
+        font-size:15px;
 }
 .exp_img_div{
     display:inline;
