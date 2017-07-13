@@ -2394,6 +2394,13 @@ border:none;
 	  float: left;
 	  width: 33.3% !important;
 	}
+    .edu-grid-btn{
+        padding:0px 0px 10px 0px;
+    }
+    .edu-grid .img-arrow{
+        top:16%;
+        left:36%;
+    }
 	.skills-grid p {
 	  margin: 3px 0 0 0;
 	  font-size: 14px;
@@ -2516,7 +2523,7 @@ border:none;
 	  width: 33.3%;
 	}
 	.gallery-section {
-	  min-height: 893px;
+	  min-height: 695px;
 	}
 	.textbox h4 {
 	  margin-top: 55px;
@@ -2990,6 +2997,7 @@ border:none;
 	.about p {
 	  margin: 22px 0 0 0;
 	  font-size: 13px;
+          text-align: justify;
 	}
 	.about ul li {
 	  margin-right: 6px;

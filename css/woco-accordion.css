@@ -170,9 +170,39 @@
     }
     
 }
+@media (min-width:768px){
+    .accordion-header{
+        padding:16px;
+    }
+       
+    .accor_tittles{
+        font-size: 15px;
+        float:left;
+    }
+    .accor_tittlec {
+        font-size: 15px;
+        float:left;
+    }
+    
+    .accor_roleu{
+            padding: 0 120px 0px 120px;
+    font-size: 15px;
+    }
+    .accor_rolei {
+           padding: 0px 159px 0px 115px;
+    font-size: 15px;
+    }
+    
+    .accor_year{
+           padding: 0 8px 0 8px;
+         font-size: 15px;
+    }
+
+    
+}
 
 
-@media (max-width:1024px){
+@media (min-width:1024px){
     .accordion-header{
         padding:16px;
     }
@@ -200,6 +230,9 @@
 
     
 }
+
+
+
 /*accordion header*/
 
 /*accordion content*/
@@ -215,8 +248,21 @@
     .exp_img{
             margin: 50px 25px 50px 0px;
     }
+
+@media (min-width:768px){
+
+    .exp_content{
+            width: 60%;
+           float: right;
+    }
+
+    
+    .exp_img{
+            margin: 150px 25px 50px 0px;
+    }
 }
-@media (max-width:1024px){
+}
+@media (min-width:1024px){
 
     .exp_content{
             width: 69%;
