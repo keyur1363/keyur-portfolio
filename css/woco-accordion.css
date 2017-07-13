@@ -100,7 +100,7 @@
     font-size: 12px;
 }
 .exp_content h4{
-  
+  font-weight: 700;
     float:left;
 }
 
@@ -123,3 +123,71 @@
 .exp_adj{
     clear:both;
 }
+/*accordian header*/
+@media (max-width:480px){
+    .accordion-header{
+        min-height:100px;
+    }
+        .accordion-header h1 {
+            float: none;
+            font-size: 18px;
+            font-weight: normal;
+            margin: 0;
+            line-height: 1.3em;
+            color: #212121;
+        }
+    .accor_tittles{
+        font-size: 15px;
+    }
+    .accor_tittlec {
+        font-size: 15px;
+    }
+    
+    .accor_roleu{
+        padding: 0 0px 0px 0px;
+        font-size: 15px;
+        display: inherit;
+    }
+    .accor_rolei {
+        padding: 0 0px 0px 0px;
+        font-size: 15px;
+        display: inherit;
+    }
+    
+    .accor_year{
+        padding: 0 0px 0 0px;
+        font-size: 15px;
+        display: inherit;
+    }
+
+    .accordion-header-icon{
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        float: right;
+        color: #888;
+        font-size: 15px;
+        vertical-align: middle;
+        margin-top: -43px;
+    }
+    
+}
+/*accordion header*/
+
+/*accordion content*/
+
+@media (max-width:480px){
+
+    .exp_content{
+            width: 95%;
+    float: right;
+    }
+
+    
+    .exp_img{
+            margin: 50px 25px 50px 0px;
+    }
+}
+
+
+
+
+/*accordion content*/
