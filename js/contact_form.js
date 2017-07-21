@@ -5,7 +5,7 @@ $(document).ready(function () {
         var name = $("#name").val();
         var email = $("#email").val();
         var message = $("#message").val();
-        console.log('sending data for mail api');
+        
         $("#returnmessage").empty(); // To empty previous error/success message.
         // Checking for blank fields.
         if (name == '' || email == '' ) {
